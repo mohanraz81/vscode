@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring People</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css" />
+</head>
+
+<body>
+    <header>
+        <div class="max-width d-flex flex-row">
+            <img alt="SpringPeople" src="sp_logo_r_small.png" />
+        </div>
+    </header>
+    <main>
+        <div class="row h-100">
+            <div class="col-3 h-100 overflow-auto" style="border-right: 1px solid lightgray;" id="content-div">
+                <!-- <div class="p-2 pb-0">
+                    <p>Click on the VS Code to view the Visual Studio Code Editor.</p>
+                </div>
+                <div class="p-2 pb-0">
+                    <p>Click on the Terminal to view the Terminal.</p>
+                </div> -->
+            </div>
+            <div class="col-9 p-0">
+                <div class="h-100 w-100">
+                    <div style="height: 50px;">
+                        <div class="h-100 d-flex align-items-center" style="border-bottom: 1px solid lightgray;" id="tab-div">
+                            <!-- <div class="p-2 d-flex align-items-center justify-content-center h-100 px-4 each-link active"
+                                style="cursor: pointer;" link="editor">
+                                <p class="text-align-center">VS Code</p>
+                            </div>
+                            <div class="p-2 d-flex align-items-center justify-content-center h-100 px-4 each-link"
+                                style="cursor: pointer;" link="terminal">
+                                <p class="text-align-center">Terminal</p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div style="height: calc(100% - 50px);" class="p-2 w-100" id="iframes-div">
+                        <!-- <div id="ide-loader-iframe-div" class="w-100 h-100 each-iframe">
+                            <div class="justify-content-center" id="ide-loader-div">
+                                <div class="spinner-border" role="status">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                            </div>
+                            <div class=" w-100 h-100" id="ide-iframe-div">
+                                <iframe src=""
+                                    id="ide-iframe"></iframe>
+                            </div>
+                        </div>
+                        <div id="ssh-loader-iframe-div" class="each-iframe w-100 h-100" hidden>
+                            <div class="justify-content-center" id="ssh-loader-div">
+                                <div class="spinner-border" role="status">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                            </div>
+                            <div class="w-100 h-100" id="ssh-iframe-div">
+                                <iframe src=""
+                                    id="ssh-iframe"></iframe>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
+
+<script src="./Urls.js"></script>
+<script src="./index.js"></script>

@@ -1,0 +1,43 @@
+{
+      "resourceid": "r123457",
+      "resourcename": "resource 1 of v1",
+      "description": "resources of v1",
+      "methods": [{
+          "methodname": "test2",
+          "methodtype": "GET",
+          "methodpath": "something",
+          "description": "Get method",
+          "functionid": {
+              "Ref": "f1235"
+          },
+          "inputschema": {
+              "parameters": [{
+                  "name": "tenantid",
+                  "in": "header",
+                  "required": true,
+                  "type": "string"
+              }
+                  
+            ]
+          },
+          "outputschema": {
+               "200": {},
+               "400": {}
+          }
+        }
+    ],
+      "data": [{
+            "db": [
+                {
+                    "Ref": "dbid",
+                    "primarytable": "tableid",
+                    "tables": [
+                        {
+                            "Ref": "tableid"
+                        }
+                        ]
+                }
+                ]
+            }
+          ]
+}

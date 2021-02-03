@@ -1,0 +1,12 @@
+{
+    "id":
+    "name":
+    "dbtype": dynamodb/cassandra/mysql/mariadb
+    "mysql": {
+        "dbname":
+        "infra":
+    }
+    "dynamodb": {
+        
+    }
+}

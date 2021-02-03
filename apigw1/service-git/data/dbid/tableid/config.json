@@ -1,0 +1,70 @@
+{
+    "dbid": 
+    "tableid": 
+    "dbtype":
+    "tablename": "student_table",
+    "description": "student table",
+    "schema": [{
+            "atttributename": "id",
+            "atttributetype": "string",
+            "description": "",
+            "constraints": ""
+        },
+        {
+            "atttributename": "phonenumber",
+            "atttributetype": "string",
+            "description": "",
+            "constraints": ""
+        },
+        {
+            "atttributename": "email",
+            "atttributetype": "string",
+            "description": "",
+            "constraints": ""
+        }
+    ]
+    "dynamodb": {
+        "indexes": {
+            "primary": {
+                "key":
+                "sorting": TRUE/FALSE
+                "sortkey":
+                "infra":{
+                    "ondemand": TRUE/FALSE
+                    "iops": {
+                        "read": 
+                        "write":
+                    }
+                      
+                }
+                   
+            }
+            "secondary": [
+            {
+                "key":
+                "sorting": TRUE/FALSE
+                "sortkey":
+                "infra":{
+                    "ondemand": TRUE/FALSE
+                    "iops": {
+                        "read": 
+                        "write":
+                    }
+                      
+                }
+                
+            }
+                
+            ]
+        }
+    }
+    "mysql": {
+            "indexes": {
+                "primarykey":
+                "foriegnkey": [
+                    
+                    ]
+        }
+    }
+        
+}

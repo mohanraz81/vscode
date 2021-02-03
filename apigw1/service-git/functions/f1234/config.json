@@ -1,0 +1,27 @@
+{
+    "functionid": "f1234",
+    "apiid": "",
+    "methodtype": "",
+    "codetype": "python",
+    "python": {
+        "app": "code/app.py",
+        "requirement": "code/requirement.txt"
+    },
+    "infra": {
+        "cpu": "",
+        "memory": "",
+        "volume": ""
+    },
+    "datasource": [
+        {
+            "dataid": "",
+            "dataaccess": "RW/RO"
+        }
+    ],
+    "env_vars": [
+        {
+            "name": "test",
+            "value": "test"
+        }
+    ]
+}

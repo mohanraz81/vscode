@@ -1,0 +1,15 @@
+{
+    "tableid":
+    "filetype": json/csv/sql
+    "files": [{
+                "filename":
+                "tag": 
+            }
+        ]
+    "remotefiles": [
+            "url":
+            "type": public/private
+            "privatecredentialtype":
+            "tag": 
+        ]
+}

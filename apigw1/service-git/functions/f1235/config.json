@@ -1,0 +1,25 @@
+{
+    "functionid": "f1237",
+    "codetype": "python",
+    "python": {
+        "app": "code/app.py",
+        "requirement": "code/requirement.txt"
+    },
+    "infra": {
+        "cpu": "",
+        "memory": "",
+        "volume": ""
+    },
+    "datasource": [
+        {
+            "dataid": "",
+            "dataaccess": "RW/RO"
+        }
+    ],
+    "env_vars": [
+        {
+            "name": "test",
+            "value": "test"
+        }
+    ]
+}

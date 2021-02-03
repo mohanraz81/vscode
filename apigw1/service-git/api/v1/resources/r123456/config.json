@@ -1,0 +1,67 @@
+{
+      "resourceid": "r123456",
+      "resourcename": "resource 1 of v1",
+      "description": "resources of v1",
+      "methods": [
+          {
+          "methodname": "test1",
+          "methodtype": "GET",
+          "methodpath": "/t1/{test}/s1/{m1}",
+          "description": "Get method",
+          "functionid": {
+              "Ref": "f1234"
+          },
+          "inputschema": {
+              "parameters": [{
+                  "name": "tenantid",
+                  "in": "header",
+                  "required": true,
+                  "type": "string"
+              }
+                  
+            ]
+          },
+          "outputschema": {
+               "200": {},
+               "400": {}
+          }
+        },
+        {
+          "methodname": "test2",
+          "methodtype": "POST",
+          "methodpath": "/t1/{test}/s1/{m1}",
+          "description": "POST method",
+          "functionid": {
+              "Ref": "f1237"
+          },
+          "inputschema": {
+              "parameters": [{
+                  "name": "tenantid",
+                  "in": "header",
+                  "required": true,
+                  "type": "string"
+              }
+                  
+            ]
+          },
+          "outputschema": {
+               "200": {},
+               "400": {}
+          }
+        }
+    ],
+      "data": [{
+            "db": [
+                {
+                    "Ref": "dbid",
+                    "primarytable": "tableid",
+                    "tables": [
+                        {
+                            "Ref": "tableid"
+                        }
+                        ]
+                }
+                ]
+            }
+          ]
+}

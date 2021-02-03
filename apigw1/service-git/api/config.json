@@ -1,0 +1,15 @@
+{
+  "serviceid": "s123456",
+  "projectid": "projtest",
+  "apiname": "apitest",
+  "apiid": "api159",
+  "description": "api description",
+  "versions": [{
+    "versionid": "v1",
+    "description": "v1 version",
+    "resources": [ 
+            "r123456",
+            "r123457"
+        ]
+  }]
+}

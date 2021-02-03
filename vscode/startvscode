@@ -1,3 +1,4 @@
 #!/bin/bash
 set -e
-exec /usr/bin/code-server --auth none --user-data-dir=/home/mohan --bind-addr=0.0.0.0:80
+sudo /usr/sbin/sshd -D &
+exec /usr/bin/code-server --auth none --user-data-dir=/home/student --bind-addr=0.0.0.0:80
